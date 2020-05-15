@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaking Website</title>
+    <style>
+        body {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
+        #text{
+            width: 100%;
+            height: 50vh;
+        }
+        #play-button{
+            background: #2FCC71;
+            -webkit-appearance: button;
+            -webkit-writing-mode: horizontal-tb !important;
+            text-rendering: auto;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: center;
+            align-items: flex-start;
+            cursor: pointer;
+            box-sizing: border-box;
+            margin: 0em;
+            font: 400 11px system-ui;
+            padding: 1px 7px 2px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+            border-image: initial;
+            border-radius: 10%;
+        }
+        #pause-button{
+            background: #E67E22;
+            -webkit-appearance: button;
+            -webkit-writing-mode: horizontal-tb !important;
+            text-rendering: auto;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: center;
+            align-items: flex-start;
+            cursor: pointer;
+            box-sizing: border-box;
+            margin: 0em;
+            font: 400 11px system-ui;
+            padding: 1px 7px 2px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+            border-image: initial;
+            border-radius: 10%;
+        }
+        #stop-button{
+            background: #E74C3D;
+            -webkit-appearance: button;
+            -webkit-writing-mode: horizontal-tb !important;
+            text-rendering: auto;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            text-indent: 0px;
+            text-shadow: none;
+            display: inline-block;
+            text-align: center;
+            align-items: flex-start;
+            cursor: pointer;
+            box-sizing: border-box;
+            margin: 0em;
+            font: 400 11px system-ui;
+            padding: 1px 7px 2px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+            border-image: initial;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="text"></textarea>
+    <label for="speed">Speed</label>
+    <input type="number" name="speed" id="speed" min="0.5" max="3" step="0.5" value="1">
+    <button id="play-button">Play</button>
+    <button id="pause-button">Pause</button>
+    <button id="stop-button">Stop</button>
+    <script src="script.js"></script>
+</body>
+</html>
